@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #ff6b81, #d63384);
+    color: white;
+}
+
+/* Header */
+header {
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 120px; /* Increase size for better visibility */
+    height: auto; /* Keep original proportions */
+    display: block;
+    margin: 0 auto;
+    filter: brightness(0) invert(1); /* Makes the logo white */
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.card {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Call-to-Action Button */
+button.cta {
+    background-color: #ff477e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button.cta:hover {
+    background-color: #e6005c;
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    width: 80px;
+    filter: brightness(0) invert(1); /* Turns any dark logo into white */
+    border-radius: 50%;
+}
